@@ -35,17 +35,12 @@ const skillsSection = {
     emoji(
       '⚡ Develop interactive Full Stack web applications using MERN stack'
     ),
-
     emoji("⚡ Designing and implementing API's  "),
     emoji('⚡ Integrating the front-end UI with the constructed API '),
     emoji(
       '⚡ Design and implementation of continuous integration and deployment '
     ),
   ],
-
-  /* Make Sure You include correct Font Awesome Classname to view your icon
-https://fontawesome.com/icons?d=gallery */
-
   softwareSkills: [
     {
       skillName: 'html-5',
@@ -124,11 +119,11 @@ const techStack = {
     },
     {
       Stack: 'Backend',
-      progressPercentage: '70%',
+      progressPercentage: '80%',
     },
     {
       Stack: 'Programming',
-      progressPercentage: '60%',
+      progressPercentage: '78%',
     },
   ],
 };
@@ -139,32 +134,41 @@ const workExperiences = {
   viewExperiences: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: 'Software Engineer',
-      company: 'Facebook',
-      companylogo: require('./assets/images/facebookLogo.png'),
-      date: 'June 2018 – Present',
-      desc:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+      role: 'Full Stack Developer',
+      company: 'Integrify',
+      companylogo: require('./assets/images/integrify.png'),
+      date: 'March 2020 – Present',
+      desc: '',
       descBullets: [
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
+        'Collaborated on diverse full stack  and React native projects.',
+        'Reviewed code and assisted colleagues in debugging.',
+        'Design and implementation of continuous integration and deployment',
       ],
     },
     {
       role: 'Front-End Developer',
-      company: 'Quora',
-      companylogo: require('./assets/images/quoraLogo.png'),
-      date: 'May 2017 – May 2018',
-      desc:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+      company: 'Dude Project',
+      companylogo: require('./assets/images/dude.png'),
+      date: 'September 2019 – February 2020',
+      desc: '',
+      descBullets: [
+        'Developed e-commerce websites for local shops.',
+        'Designed  landing pages for small businesses.',
+        'Maintained and added features to existing websites for various local companies.',
+      ],
     },
+
     {
-      role: 'Software Engineer Intern',
-      company: 'Airbnb',
-      companylogo: require('./assets/images/airbnbLogo.png'),
-      date: 'Jan 2015 – Sep 2015',
-      desc:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+      role: 'Customer Service ',
+      company: 'Buildmart Architectural ',
+      companylogo: require('./assets/images/build.png'),
+      date: 'March 2015 – September 2016',
+      desc: '',
+      descBullets: [
+        'Acquired clients for the company to solicit services for architectural projects.',
+        'Established marketing campaigns to increase the profit margin of the company.',
+        'Sustained client relationships by follow up calls.',
+      ],
     },
   ],
 };
@@ -265,16 +269,10 @@ const blogSection = {
   blogs: [
     {
       url:
-        'https://blog.usejournal.com/create-a-google-assistant-action-and-win-a-google-t-shirt-and-cloud-credits-4a8d86d76eae',
-      title: 'Win a Google Assistant Tshirt and $200 in Google Cloud Credits',
+        'https://medium.com/@dominickud/a-quick-guide-to-setup-react-native-4065ae624405',
+      title: 'A quick guide to setup React Native with Typescript on MacOS',
       description:
-        'Do you want to win $200 and Google Assistant Tshirt by creating a Google Assistant Action in less then 30 min?',
-    },
-    {
-      url: 'https://medium.com/@saadpasta/why-react-is-the-best-5a97563f423e',
-      title: 'Why REACT is The Best?',
-      description:
-        'React is a JavaScript library for building User Interface. It is maintained by Facebook and a community of individual developers and companies.',
+        'This publication is intended to assist anyone who is new to React Native and would like to setup an environment in less than 6 mins',
     },
   ],
 };
