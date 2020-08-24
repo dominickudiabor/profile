@@ -137,7 +137,7 @@ const workExperiences = {
       role: 'Full Stack Developer',
       company: 'Integrify',
       companylogo: require('./assets/images/integrify.png'),
-      date: 'March 2020 – Present',
+      date: 'May 2020 – Present',
       desc: '',
       descBullets: [
         'Collaborated on diverse full stack  and React native projects.',
