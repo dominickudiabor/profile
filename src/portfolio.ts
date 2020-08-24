@@ -41,6 +41,7 @@ const skillsSection = {
       '⚡ Design and implementation of continuous integration and deployment '
     ),
   ],
+  // eslint-disable-next-line
   softwareSkills: [
     {
       skillName: 'html-5',
@@ -79,7 +80,6 @@ const skillsSection = {
       skillName: 'React-Native',
       fontAwesomeClassname: 'fas fa-mobile-alt',
     },
-
     {
       skillName: 'npm',
       fontAwesomeClassname: 'fab fa-npm',
